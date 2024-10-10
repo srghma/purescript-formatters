@@ -1,0 +1,39 @@
+package:
+  name: formatters
+  publish:
+    license: Apache-2.0
+    version: 7.0.0
+    location:
+      githubOwner: purescript-contrib
+      githubRepo: purescript-formatters
+  dependencies:
+    - arrays
+    - bifunctors
+    - control
+    - datetime
+    - either
+    - enums
+    - foldable-traversable
+    - integers
+    - lists
+    - maybe
+    - newtype
+    - numbers
+    - ordered-collections
+    - parsing
+    - partial
+    - prelude
+    - strings
+    - transformers
+    - tuples
+  test:
+    main: Test.Main
+    dependencies:
+      - aff
+      - assert
+      - console
+      - effect
+workspace:
+  extraPackages: {}
+  packageSet:
+    registry: 60.5.0
